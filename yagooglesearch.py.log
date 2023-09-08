@@ -1,0 +1,362 @@
+2023-09-08 03:49:08,678 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2023-09-08 03:49:21,703 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:49:21,705 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27'}
+2023-09-08 03:49:21,707 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie AEC=Ad49MVEMIIungiO1FFQMlkhIO178ZUfcnfgvVqLr9uLCmnMMws1XiL9JUlA for .google.com/>, <Cookie NID=511=VK1i3TDa5MTo4m66Ajb21jEpdWaMVd0H_CEZIXuqc3UEk7OxUhyYyX5cYHclizeWN3NQ4VlTsplwXz028KOnW7AdcX_LfGd64-ilUBjy3jmAbgBS_2LiksFc0hxBIleIRKAzKgDiKoQ6e9vqfua1IqoFGO3QXpzbkdRAj7MrFdo for .google.com/>]>
+2023-09-08 03:49:21,709 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:49:21,710 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:49:21,716 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=100
+2023-09-08 03:49:21,718 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&q=site%3Ahttps%3A%2F%2Fhighstreetconsulting.com%2F+intitle%3A%22Ganglia%22+%22Cluster+Report+for%22&num=100&btnG=Google+Search&tbs=li:1&safe=off&cr=&filter=0
+2023-09-08 03:49:26,706 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:49:26,708 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27'}
+2023-09-08 03:49:26,710 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie NID=511=RiGXpXwlZhINkehKdJChyelZUQkNW-XyLn2MEUHFD_XnEZDkSZW6oPWFteNIpUCFFbFa3uTNhArKdrZsp-XVBoY2A1FprQZOINwgWE9GjbfS_XShKrPDw6iQI-urg4k7cqZE_JbNrw2k7UHIhb7MtdG7QxZBVTCfZiJ7riNbTsrTnCDTu4cM1g for .google.com/>]>
+2023-09-08 03:49:26,711 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:49:26,712 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:49:26,757 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QOwgC
+2023-09-08 03:49:26,758 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QOwgC
+2023-09-08 03:49:26,760 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,761 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&tbs=li:1&num=100&safe=off&sa=G&sca_esv=563635297&hl=en&gbv=1&sei=BtL6ZJkm0euABvibpPAO
+2023-09-08 03:49:26,762 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&tbs=li:1&num=100&safe=off&sa=G&sca_esv=563635297&hl=en&gbv=1&sei=BtL6ZJkm0euABvibpPAO
+2023-09-08 03:49:26,763 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,764 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4Q_AUIBigB
+2023-09-08 03:49:26,765 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4Q_AUIBigB
+2023-09-08 03:49:26,766 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,766 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4Q_AUIBygC
+2023-09-08 03:49:26,767 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4Q_AUIBygC
+2023-09-08 03:49:26,768 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,769 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4Q_AUICCgD
+2023-09-08 03:49:26,770 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4Q_AUICCgD
+2023-09-08 03:49:26,771 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,772 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4Q_AUICSgE
+2023-09-08 03:49:26,772 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4Q_AUICSgE
+2023-09-08 03:49:26,773 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,774 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /advanced_search
+2023-09-08 03:49:26,775 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /advanced_search
+2023-09-08 03:49:26,775 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,776 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbs=qdr:h&source=lnt&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QpwUICw
+2023-09-08 03:49:26,777 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbs=qdr:h&source=lnt&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QpwUICw
+2023-09-08 03:49:26,778 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,779 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbs=qdr:d&source=lnt&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QpwUIDA
+2023-09-08 03:49:26,779 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbs=qdr:d&source=lnt&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QpwUIDA
+2023-09-08 03:49:26,780 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,781 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbs=qdr:w&source=lnt&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QpwUIDQ
+2023-09-08 03:49:26,781 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbs=qdr:w&source=lnt&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QpwUIDQ
+2023-09-08 03:49:26,782 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,783 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbs=qdr:m&source=lnt&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QpwUIDg
+2023-09-08 03:49:26,784 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbs=qdr:m&source=lnt&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QpwUIDg
+2023-09-08 03:49:26,785 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,786 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbs=qdr:y&source=lnt&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QpwUIDw
+2023-09-08 03:49:26,789 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbs=qdr:y&source=lnt&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QpwUIDw
+2023-09-08 03:49:26,789 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,789 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbas=0&source=lnt&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QpwUIEA
+2023-09-08 03:49:26,790 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563635297&hl=en&tbas=0&source=lnt&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QpwUIEA
+2023-09-08 03:49:26,790 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,790 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?url=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4Qty4IFQ&usg=AOvVaw313qK7QL4hXyvgP4mD0tup
+2023-09-08 03:49:26,791 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://support.google.com/websearch?p=ws_settings_location&hl=en
+2023-09-08 03:49:26,792 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,792 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?url=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fhl%253Den%2526q%253Dsite:https://highstreetconsulting.com/%252Bintitle:%252522Ganglia%252522%252B%252522Cluster%252BReport%252Bfor%252522%2526num%253D100%2526btnG%253DGoogle%252BSearch%2526tbs%253Dli:1%2526safe%253Doff%2526cr%253D%2526filter%253D0%26hl%3Den&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4Qxs8CCBY&usg=AOvVaw31Uc9o_yTAEA7VVRBPZqpI
+2023-09-08 03:49:26,793 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://accounts.google.com/ServiceLogin?continue=https://www.google.com/search%3Fhl%3Den%26q%3Dsite:https://highstreetconsulting.com/%2Bintitle:%2522Ganglia%2522%2B%2522Cluster%2BReport%2Bfor%2522%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3Dli:1%26safe%3Doff%26cr%3D%26filter%3D0&hl=en
+2023-09-08 03:49:26,794 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,794 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/preferences?hl=en&fg=1&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4Q5fUCCBc
+2023-09-08 03:49:26,795 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/preferences?hl=en&fg=1&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4Q5fUCCBc
+2023-09-08 03:49:26,796 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,796 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://policies.google.com/privacy?hl=en&fg=1
+2023-09-08 03:49:26,796 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://policies.google.com/privacy?hl=en&fg=1
+2023-09-08 03:49:26,797 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,797 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://policies.google.com/terms?hl=en&fg=1
+2023-09-08 03:49:26,798 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://policies.google.com/terms?hl=en&fg=1
+2023-09-08 03:49:26,798 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,798 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /setprefs?hl=en&prev=https://www.google.com/search?hl%3Den%26q%3Dsite:https://highstreetconsulting.com/%2Bintitle:%2522Ganglia%2522%2B%2522Cluster%2BReport%2Bfor%2522%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3Dli:1%26safe%3Doff%26cr%26filter%3D0%26pccc%3D1&sig=0_qdV5qQXOZvUoozt3TMm5QTYLMNE%3D&cs=2&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QjcAJCBg
+2023-09-08 03:49:26,799 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /setprefs?hl=en&prev=https://www.google.com/search?hl%3Den%26q%3Dsite:https://highstreetconsulting.com/%2Bintitle:%2522Ganglia%2522%2B%2522Cluster%2BReport%2Bfor%2522%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3Dli:1%26safe%3Doff%26cr%26filter%3D0%26pccc%3D1&sig=0_qdV5qQXOZvUoozt3TMm5QTYLMNE%3D&cs=2&sa=X&ved=0ahUKEwiZwdC5w5qBAxXRNcAKHfgNCe4QjcAJCBg
+2023-09-08 03:49:26,799 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:26,800 [MainThread  ] [INFO] No valid search results found on this page.  Moving on...
+2023-09-08 03:49:26,801 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2023-09-08 03:49:28,218 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:49:28,219 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.12 Safari/534.24'}
+2023-09-08 03:49:28,220 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie AEC=Ad49MVF3PNL2EaYiyiPQuwa8uZfVqMmapGOrv-jDfkSqubQrHztCQiu7e2c for .google.com/>, <Cookie NID=511=gSuqTWD5LgN2dh5en1aD6OUy5J3GWv-5b8QzlEpTocV6Mvhjh0vR5LyGHK-JQqA9x_k4IyJZnH8cJljHfLa5dKOm5DFcaEzROna6GrO0gqTmzR-KaSva6qvQkn5ttkeyQHkKROsguO1_WxhgDe8vfy95GkRjHPyx4HtKoL3qU20 for .google.com/>]>
+2023-09-08 03:49:28,222 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:49:28,222 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:49:28,228 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=100
+2023-09-08 03:49:28,230 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&q=site%3Ahttps%3A%2F%2Fhighstreetconsulting.com%2F+allinurl%3A%2Fexamples%2Fjsp%2Fsnp%2Fsnoop.jsp&num=100&btnG=Google+Search&tbs=li:1&safe=off&cr=&filter=0
+2023-09-08 03:49:32,202 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:49:32,202 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.12 Safari/534.24'}
+2023-09-08 03:49:32,202 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie NID=511=OKU_u7eJZs9p25MJH95DSyoPgxF8DjhPieP0guM9YCXFpcS3Ht_cc4JSL5Otg8lENCilNy16LGKwWkxgrKWHjHvddFEv6DqpfWYp3JARHnHdkjPFdeRUWuTC_Da-O8zeo8OlQZkauDkmLZt1b4bYIAwxx-AMiqgKlZLrbc2BlZs for .google.com/>]>
+2023-09-08 03:49:32,203 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:49:32,203 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:49:32,219 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?num=100&safe=off&sa=G&sca_esv=563635297&hl=en&output=search&tbs=li:1&ved=0ahUKEwjhppa8w5qBAxWQX0EAHdP-Cz8QPAgC
+2023-09-08 03:49:32,220 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?num=100&safe=off&sa=G&sca_esv=563635297&hl=en&output=search&tbs=li:1&ved=0ahUKEwjhppa8w5qBAxWQX0EAHdP-Cz8QPAgC
+2023-09-08 03:49:32,220 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:32,221 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+allinurl:/examples/jsp/snp/snoop.jsp&num=100&safe=off&sca_esv=563635297&hl=en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwjhppa8w5qBAxWQX0EAHdP-Cz8Q_AUIBSgB
+2023-09-08 03:49:32,222 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+allinurl:/examples/jsp/snp/snoop.jsp&num=100&safe=off&sca_esv=563635297&hl=en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwjhppa8w5qBAxWQX0EAHdP-Cz8Q_AUIBSgB
+2023-09-08 03:49:32,222 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:32,223 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+allinurl:/examples/jsp/snp/snoop.jsp&num=100&safe=off&sca_esv=563635297&hl=en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwjhppa8w5qBAxWQX0EAHdP-Cz8Q_AUIBigC
+2023-09-08 03:49:32,223 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+allinurl:/examples/jsp/snp/snoop.jsp&num=100&safe=off&sca_esv=563635297&hl=en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwjhppa8w5qBAxWQX0EAHdP-Cz8Q_AUIBigC
+2023-09-08 03:49:32,224 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:32,224 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+allinurl:/examples/jsp/snp/snoop.jsp&num=100&safe=off&sca_esv=563635297&hl=en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjhppa8w5qBAxWQX0EAHdP-Cz8Q_AUIBygD
+2023-09-08 03:49:32,231 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+allinurl:/examples/jsp/snp/snoop.jsp&num=100&safe=off&sca_esv=563635297&hl=en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjhppa8w5qBAxWQX0EAHdP-Cz8Q_AUIBygD
+2023-09-08 03:49:32,232 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:32,233 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: #
+2023-09-08 03:49:32,233 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: #
+2023-09-08 03:49:32,234 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:32,234 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&sa=U&ved=0ahUKEwjhppa8w5qBAxWQX0EAHdP-Cz8Qty4ICw&usg=AOvVaw3qIC9-o7_6Yjwo0w4dag_z
+2023-09-08 03:49:32,235 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://support.google.com/websearch?p=ws_settings_location&hl=en
+2023-09-08 03:49:32,236 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:32,236 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fhl%253Den%2526q%253Dsite:https://highstreetconsulting.com/%252Ballinurl:/examples/jsp/snp/snoop.jsp%2526num%253D100%2526btnG%253DGoogle%252BSearch%2526tbs%253Dli:1%2526safe%253Doff%2526cr%253D%2526filter%253D0%26hl%3Den&sa=U&ved=0ahUKEwjhppa8w5qBAxWQX0EAHdP-Cz8Qxs8CCAw&usg=AOvVaw1A40upLmoqXEOaaitE0RXs
+2023-09-08 03:49:32,237 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://accounts.google.com/ServiceLogin?continue=https://www.google.com/search%3Fhl%3Den%26q%3Dsite:https://highstreetconsulting.com/%2Ballinurl:/examples/jsp/snp/snoop.jsp%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3Dli:1%26safe%3Doff%26cr%3D%26filter%3D0&hl=en
+2023-09-08 03:49:32,238 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:32,238 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/preferences?hl=en&sa=X&ved=0ahUKEwjhppa8w5qBAxWQX0EAHdP-Cz8Qv5YECA0
+2023-09-08 03:49:32,239 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/preferences?hl=en&sa=X&ved=0ahUKEwjhppa8w5qBAxWQX0EAHdP-Cz8Qv5YECA0
+2023-09-08 03:49:32,239 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:32,240 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/intl/en_zz/policies/privacy/
+2023-09-08 03:49:32,240 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/intl/en_zz/policies/privacy/
+2023-09-08 03:49:32,241 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:32,241 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/intl/en_zz/policies/terms/
+2023-09-08 03:49:32,242 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/intl/en_zz/policies/terms/
+2023-09-08 03:49:32,242 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:32,243 [MainThread  ] [INFO] No valid search results found on this page.  Moving on...
+2023-09-08 03:49:32,243 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2023-09-08 03:49:33,502 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:49:33,503 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows NT 5.1; U; zh-cn; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.53'}
+2023-09-08 03:49:33,505 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie AEC=Ad49MVGTz0-J_iDEd7jyf8yJT_2Ju8eNifnXph5kI5_SeOeclIcqwUzZdw0 for .google.com/>, <Cookie NID=511=kwmGK3jxs39XG3GqSpzGYmZ4aaOc4NkGaF1Z8cIhxLOxDkvcFevZROubM3q-_h3QuIcMgtbQttmdZUZCmVBt8sQpZrwbLFkkg3UueolvWYU_UKBvkGDQZsY8qRhqvdPbS9i7M8a461ZrdwB8YJIS7m5MXKOyc5ymRGsdyhqiP2I for .google.com/>]>
+2023-09-08 03:49:33,506 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:49:33,507 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:49:33,512 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=100
+2023-09-08 03:49:33,515 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&q=site%3Ahttps%3A%2F%2Fhighstreetconsulting.com%2F+intitle%3A%22index+of%22+mysql.conf+OR+mysql_config&num=100&btnG=Google+Search&tbs=li:1&safe=off&cr=&filter=0
+2023-09-08 03:49:37,214 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:49:37,215 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows NT 5.1; U; zh-cn; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.53'}
+2023-09-08 03:49:37,215 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie NID=511=ni8b7RxAQqPkclhjjvaU8CSeTUNju6rg7rRRGJp2BPjKx900tylun3Eq9u7TDI5TLtwzqL07_111UOgVQSl2Tlzmj_9MFyp3l3NOgHYoe02FEYX9FiDAiD1748sxESxZWXAqjL18gXKgommk7MQQ2JOW0Ui4ZstVTyTqfNwMv8M for .google.com/>]>
+2023-09-08 03:49:37,216 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:49:37,216 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:49:37,244 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?num=100&safe=off&sa=G&sca_esv=563635297&hl=en&output=search&tbs=li:1&ved=0ahUKEwie2NK-w5qBAxWYglwKHXacBOYQPAgC
+2023-09-08 03:49:37,245 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?num=100&safe=off&sa=G&sca_esv=563635297&hl=en&output=search&tbs=li:1&ved=0ahUKEwie2NK-w5qBAxWYglwKHXacBOYQPAgC
+2023-09-08 03:49:37,246 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:37,246 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22index+of%22+mysql.conf+OR+mysql_config&num=100&safe=off&sca_esv=563635297&hl=en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwie2NK-w5qBAxWYglwKHXacBOYQ_AUIBSgB
+2023-09-08 03:49:37,247 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22index+of%22+mysql.conf+OR+mysql_config&num=100&safe=off&sca_esv=563635297&hl=en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwie2NK-w5qBAxWYglwKHXacBOYQ_AUIBSgB
+2023-09-08 03:49:37,247 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:37,248 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22index+of%22+mysql.conf+OR+mysql_config&num=100&safe=off&sca_esv=563635297&hl=en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwie2NK-w5qBAxWYglwKHXacBOYQ_AUIBigC
+2023-09-08 03:49:37,248 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22index+of%22+mysql.conf+OR+mysql_config&num=100&safe=off&sca_esv=563635297&hl=en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwie2NK-w5qBAxWYglwKHXacBOYQ_AUIBigC
+2023-09-08 03:49:37,249 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:37,249 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22index+of%22+mysql.conf+OR+mysql_config&num=100&safe=off&sca_esv=563635297&hl=en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwie2NK-w5qBAxWYglwKHXacBOYQ_AUIBygD
+2023-09-08 03:49:37,250 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22index+of%22+mysql.conf+OR+mysql_config&num=100&safe=off&sca_esv=563635297&hl=en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwie2NK-w5qBAxWYglwKHXacBOYQ_AUIBygD
+2023-09-08 03:49:37,250 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:37,251 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: #
+2023-09-08 03:49:37,251 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: #
+2023-09-08 03:49:37,252 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:37,252 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&sa=U&ved=0ahUKEwie2NK-w5qBAxWYglwKHXacBOYQty4ICw&usg=AOvVaw28zu8h2TAF3YTE0skiEkYt
+2023-09-08 03:49:37,253 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://support.google.com/websearch?p=ws_settings_location&hl=en
+2023-09-08 03:49:37,254 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:37,254 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fhl%253Den%2526q%253Dsite:https://highstreetconsulting.com/%252Bintitle:%252522index%252Bof%252522%252Bmysql.conf%252BOR%252Bmysql_config%2526num%253D100%2526btnG%253DGoogle%252BSearch%2526tbs%253Dli:1%2526safe%253Doff%2526cr%253D%2526filter%253D0%26hl%3Den&sa=U&ved=0ahUKEwie2NK-w5qBAxWYglwKHXacBOYQxs8CCAw&usg=AOvVaw38az6GThI47MAP7aTB-T5U
+2023-09-08 03:49:37,255 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://accounts.google.com/ServiceLogin?continue=https://www.google.com/search%3Fhl%3Den%26q%3Dsite:https://highstreetconsulting.com/%2Bintitle:%2522index%2Bof%2522%2Bmysql.conf%2BOR%2Bmysql_config%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3Dli:1%26safe%3Doff%26cr%3D%26filter%3D0&hl=en
+2023-09-08 03:49:37,255 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:37,256 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/preferences?hl=en&sa=X&ved=0ahUKEwie2NK-w5qBAxWYglwKHXacBOYQv5YECA0
+2023-09-08 03:49:37,257 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/preferences?hl=en&sa=X&ved=0ahUKEwie2NK-w5qBAxWYglwKHXacBOYQv5YECA0
+2023-09-08 03:49:37,257 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:37,258 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/intl/en_zz/policies/privacy/
+2023-09-08 03:49:37,258 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/intl/en_zz/policies/privacy/
+2023-09-08 03:49:37,259 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:37,259 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/intl/en_zz/policies/terms/
+2023-09-08 03:49:37,259 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/intl/en_zz/policies/terms/
+2023-09-08 03:49:37,260 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:49:37,260 [MainThread  ] [INFO] No valid search results found on this page.  Moving on...
+2023-09-08 03:49:37,261 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2023-09-08 03:49:39,095 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:49:39,096 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b11pre) Gecko/20110128 Firefox/4.0b11pre'}
+2023-09-08 03:49:39,096 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie AEC=Ad49MVH4aG_f-vxSuGHqDGYkbcd3i_hFUrlzy1tnOyg4yFQ_9-c3CVnGbA for .google.com/>, <Cookie NID=511=FA9JtJtkIBoC6tj--TFfLmPFaG2u_4GeozVMCTnsvnO01eSfMHyyppNzRg0fy982I9R2CiAtbKIRnuH9i-xkl7enueL0maO90ETsQ3TrZgvqD7cel7WOLVsmQW9WtnzjOS_y86s1iv0O2TbrNr281af8az5AqkyY3Ibvw9SL_Sg for .google.com/>]>
+2023-09-08 03:49:39,097 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:49:39,097 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:49:39,103 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=100
+2023-09-08 03:49:39,105 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&q=site%3Ahttps%3A%2F%2Fhighstreetconsulting.com%2F+intitle%3A%22Big+Sister%22+%2B%22OK+Attention+Trouble%22&num=100&btnG=Google+Search&tbs=li:1&safe=off&cr=&filter=0
+2023-09-08 03:55:23,499 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2023-09-08 03:55:24,818 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:55:24,819 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Opera/9.80 (X11; Linux i686; U; en-GB) Presto/2.5.24 Version/10.53'}
+2023-09-08 03:55:24,820 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie AEC=Ad49MVFFOQDJ4rTxvpDqMTK6odUfIwowKsl-bxQxWXSyCgZ-sj1G_igjnw for .google.com/>, <Cookie NID=511=IkSMtdGpd9vPOyV6s0_CIiwMS_aVBsk-YmS9tTTYUSKIUbqwV4C4SDoFTHLJRJY7p1BGKGVKW7hDD5CDlqwLdpDfW6rdCW9bgTMx_yuOQCmNRVHmUgV6-Q5b1k78hxG61NhQAB7Kj32dpkXOcsv4fQ-z67BVyQL_jYjwti4735I for .google.com/>]>
+2023-09-08 03:55:24,821 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:55:24,823 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:55:24,828 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=100
+2023-09-08 03:55:24,831 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&q=site%3Ahttps%3A%2F%2Fhighstreetconsulting.com%2F+intitle%3A%22Ganglia%22+%22Cluster+Report+for%22&num=100&btnG=Google+Search&tbs=li:1&safe=off&cr=&filter=0
+2023-09-08 03:56:26,643 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2023-09-08 03:56:28,130 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:56:28,131 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.2; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)'}
+2023-09-08 03:56:28,131 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie AEC=Ad49MVGCklZkVyAIqFO2h3nClXWNITnmTZlxBylUy5vBnf-iF19FBbDIuA for .google.com/>, <Cookie NID=511=UXb2G3WKrH8tyycZQ2TCN8HpKb2Qwf3GEmV9dRbnKxev_dLsFMnrJ9Mjkp_h-J6iPOYlMIdLRRYQ0vNBmHDlrePJZySQQRVvqBp7cLS2geTCPn63cJokltlMo_bZmUCkijZ3sfh5BJnSSaqfKWmxIAkIH76DCccl5l9UItcBSkA for .google.com/>]>
+2023-09-08 03:56:28,131 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:56:28,132 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:56:28,136 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=100
+2023-09-08 03:56:28,138 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&q=site%3Ahttps%3A%2F%2Fhighstreetconsulting.com%2F+intitle%3A%22Ganglia%22+%22Cluster+Report+for%22&num=100&btnG=Google+Search&tbs=li:1&safe=off&cr=&filter=0
+2023-09-08 03:56:35,471 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:56:35,472 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.2; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)'}
+2023-09-08 03:56:35,473 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie NID=511=e_cSAEcfhGyaR1HwhpHrN_1Qd9uUpHQHPPbFvtUm2rEltmWVGOwtYkh-tx2wptqOEalLZLLnb6lELT0uV4i9h1j-tBZ_JrtAJnu0TQFEU9WabwTNZNSnpdPPwA5NMW6D0Hi0e2oFiimVRiidZsUkx4XO7fwA0al-ZoR-M9brndY for .google.com/>]>
+2023-09-08 03:56:35,473 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:56:35,473 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:56:35,496 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?num=100&safe=off&sa=G&sca_esv=563665333&hl=en&output=search&tbs=li:1&ved=0ahUKEwjHkJeGxZqBAxU7tIkEHaPZAvYQPAgC
+2023-09-08 03:56:35,497 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?num=100&safe=off&sa=G&sca_esv=563665333&hl=en&output=search&tbs=li:1&ved=0ahUKEwjHkJeGxZqBAxU7tIkEHaPZAvYQPAgC
+2023-09-08 03:56:35,497 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:35,497 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563665333&hl=en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwjHkJeGxZqBAxU7tIkEHaPZAvYQ_AUIBSgB
+2023-09-08 03:56:35,498 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563665333&hl=en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwjHkJeGxZqBAxU7tIkEHaPZAvYQ_AUIBSgB
+2023-09-08 03:56:35,498 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:35,498 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563665333&hl=en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwjHkJeGxZqBAxU7tIkEHaPZAvYQ_AUIBigC
+2023-09-08 03:56:35,499 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563665333&hl=en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwjHkJeGxZqBAxU7tIkEHaPZAvYQ_AUIBigC
+2023-09-08 03:56:35,499 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:35,500 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563665333&hl=en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjHkJeGxZqBAxU7tIkEHaPZAvYQ_AUIBygD
+2023-09-08 03:56:35,500 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:%22Ganglia%22+%22Cluster+Report+for%22&num=100&safe=off&sca_esv=563665333&hl=en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjHkJeGxZqBAxU7tIkEHaPZAvYQ_AUIBygD
+2023-09-08 03:56:35,500 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:35,501 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: #
+2023-09-08 03:56:35,501 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: #
+2023-09-08 03:56:35,501 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:35,502 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?url=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&rct=j&frm=1&q=&esrc=s&sa=U&ved=0ahUKEwjHkJeGxZqBAxU7tIkEHaPZAvYQty4ICw&usg=AOvVaw09_nZWQmlhyryRnLTVZws2
+2023-09-08 03:56:35,503 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://support.google.com/websearch?p=ws_settings_location&hl=en
+2023-09-08 03:56:35,504 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:35,504 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?url=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fhl%253Den%2526q%253Dsite:https://highstreetconsulting.com/%252Bintitle:%252522Ganglia%252522%252B%252522Cluster%252BReport%252Bfor%252522%2526num%253D100%2526btnG%253DGoogle%252BSearch%2526tbs%253Dli:1%2526safe%253Doff%2526cr%253D%2526filter%253D0%26hl%3Den&rct=j&frm=1&q=&esrc=s&sa=U&ved=0ahUKEwjHkJeGxZqBAxU7tIkEHaPZAvYQxs8CCAw&usg=AOvVaw2qWeWGGI1uX8DumnSLUCLu
+2023-09-08 03:56:35,505 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://accounts.google.com/ServiceLogin?continue=https://www.google.com/search%3Fhl%3Den%26q%3Dsite:https://highstreetconsulting.com/%2Bintitle:%2522Ganglia%2522%2B%2522Cluster%2BReport%2Bfor%2522%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3Dli:1%26safe%3Doff%26cr%3D%26filter%3D0&hl=en
+2023-09-08 03:56:35,505 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:35,506 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/preferences?hl=en&sa=X&ved=0ahUKEwjHkJeGxZqBAxU7tIkEHaPZAvYQv5YECA0
+2023-09-08 03:56:35,506 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/preferences?hl=en&sa=X&ved=0ahUKEwjHkJeGxZqBAxU7tIkEHaPZAvYQv5YECA0
+2023-09-08 03:56:35,507 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:35,507 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/intl/en_zz/policies/privacy/
+2023-09-08 03:56:35,507 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/intl/en_zz/policies/privacy/
+2023-09-08 03:56:35,508 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:35,508 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/intl/en_zz/policies/terms/
+2023-09-08 03:56:35,508 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/intl/en_zz/policies/terms/
+2023-09-08 03:56:35,509 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:35,509 [MainThread  ] [INFO] No valid search results found on this page.  Moving on...
+2023-09-08 03:56:35,510 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2023-09-08 03:56:37,663 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:56:37,664 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (X11; U; Linux x86_64; fr; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13'}
+2023-09-08 03:56:37,664 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie AEC=Ad49MVH6vBM9mBtQqyrTh_eW4yAx7osBcPlZtY46yy2R0J1mm8KQfP9rmls for .google.com/>, <Cookie NID=511=ckcYBsYHF9e8Ouyy9iXhXBDusIz_N879TSvF_da71cHoUokqgPQnRAa6Boxq784c54aFUBFVrti6lwczBj-9d-7XaFgFGZW_m2HkuK_EPm9xsgEOguCEGm_x_c9mTuP1YMR6kN164tD2kg2xr7E-y-yS0pPRGSz2r11vkqAi7FQ for .google.com/>]>
+2023-09-08 03:56:37,665 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:56:37,665 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:56:37,670 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=100
+2023-09-08 03:56:37,673 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&q=site%3Ahttps%3A%2F%2Fhighstreetconsulting.com%2F+intitle%3Aindex.of+people.lst&num=100&btnG=Google+Search&tbs=li:1&safe=off&cr=&filter=0
+2023-09-08 03:56:43,942 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:56:43,944 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (X11; U; Linux x86_64; fr; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13'}
+2023-09-08 03:56:43,945 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie NID=511=OZ1rX-dI0QpOyTlTNfUPq1qlX9S1cbBsFn4sUi4ztDRIa95Y_L29gCur8ztWnpHwxAbZeMqR0D5fyOFWEeH0WD6WL4gCCXcmR3hN1dpfk-svhKgROL7XyikJMUxzgs9aV0_CyVOECulWdxSzGH8yHk4BROhjCwwRAe7e8MzXt_w for .google.com/>]>
+2023-09-08 03:56:43,945 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:56:43,946 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:56:43,990 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQOwgC
+2023-09-08 03:56:43,991 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQOwgC
+2023-09-08 03:56:43,992 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:43,992 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&tbs=li:1&num=100&safe=off&sa=G&sca_esv=563665333&hl=en&gbv=1&sei=utP6ZLXXMfmoptQP4e-HmAg
+2023-09-08 03:56:43,993 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&tbs=li:1&num=100&safe=off&sa=G&sca_esv=563665333&hl=en&gbv=1&sei=utP6ZLXXMfmoptQP4e-HmAg
+2023-09-08 03:56:43,993 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:43,993 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQ_AUIBigB
+2023-09-08 03:56:43,994 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQ_AUIBigB
+2023-09-08 03:56:43,994 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:43,995 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQ_AUIBygC
+2023-09-08 03:56:43,995 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQ_AUIBygC
+2023-09-08 03:56:43,995 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:43,996 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQ_AUICCgD
+2023-09-08 03:56:43,996 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQ_AUICCgD
+2023-09-08 03:56:43,997 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:43,997 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQ_AUICSgE
+2023-09-08 03:56:43,998 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQ_AUICSgE
+2023-09-08 03:56:43,998 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:43,998 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /advanced_search
+2023-09-08 03:56:43,999 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /advanced_search
+2023-09-08 03:56:43,999 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:43,999 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:h&source=lnt&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQpwUICw
+2023-09-08 03:56:44,000 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:h&source=lnt&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQpwUICw
+2023-09-08 03:56:44,000 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:44,000 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:d&source=lnt&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQpwUIDA
+2023-09-08 03:56:44,001 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:d&source=lnt&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQpwUIDA
+2023-09-08 03:56:44,001 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:44,001 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:w&source=lnt&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQpwUIDQ
+2023-09-08 03:56:44,002 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:w&source=lnt&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQpwUIDQ
+2023-09-08 03:56:44,002 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:44,002 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:m&source=lnt&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQpwUIDg
+2023-09-08 03:56:44,003 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:m&source=lnt&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQpwUIDg
+2023-09-08 03:56:44,003 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:44,005 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:y&source=lnt&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQpwUIDw
+2023-09-08 03:56:44,005 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:y&source=lnt&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQpwUIDw
+2023-09-08 03:56:44,006 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:44,006 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbas=0&source=lnt&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQpwUIEA
+2023-09-08 03:56:44,006 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+intitle:index.of+people.lst&num=100&safe=off&sca_esv=563665333&hl=en&tbas=0&source=lnt&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQpwUIEA
+2023-09-08 03:56:44,007 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:44,007 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&sa=U&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQty4IFQ&usg=AOvVaw1a-ItFWG5aVXbfd7t-W044
+2023-09-08 03:56:44,008 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://support.google.com/websearch?p=ws_settings_location&hl=en
+2023-09-08 03:56:44,008 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:44,008 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fhl%253Den%2526q%253Dsite:https://highstreetconsulting.com/%252Bintitle:index.of%252Bpeople.lst%2526num%253D100%2526btnG%253DGoogle%252BSearch%2526tbs%253Dli:1%2526safe%253Doff%2526cr%253D%2526filter%253D0%26hl%3Den&sa=U&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQxs8CCBY&usg=AOvVaw2Gz1B8JTeVghIhb7vsYATX
+2023-09-08 03:56:44,009 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://accounts.google.com/ServiceLogin?continue=https://www.google.com/search%3Fhl%3Den%26q%3Dsite:https://highstreetconsulting.com/%2Bintitle:index.of%2Bpeople.lst%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3Dli:1%26safe%3Doff%26cr%3D%26filter%3D0&hl=en
+2023-09-08 03:56:44,009 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:44,009 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/preferences?hl=en&fg=1&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQ5fUCCBc
+2023-09-08 03:56:44,010 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/preferences?hl=en&fg=1&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQ5fUCCBc
+2023-09-08 03:56:44,010 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:44,010 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://policies.google.com/privacy?hl=en&fg=1
+2023-09-08 03:56:44,011 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://policies.google.com/privacy?hl=en&fg=1
+2023-09-08 03:56:44,011 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:44,011 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://policies.google.com/terms?hl=en&fg=1
+2023-09-08 03:56:44,012 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://policies.google.com/terms?hl=en&fg=1
+2023-09-08 03:56:44,012 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:44,013 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /setprefs?hl=en&prev=https://www.google.com/search?hl%3Den%26q%3Dsite:https://highstreetconsulting.com/%2Bintitle:index.of%2Bpeople.lst%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3Dli:1%26safe%3Doff%26cr%26filter%3D0%26pccc%3D1&sig=0_R9833I9Rg3y4zgdk-qrvDQ51wbs%3D&cs=2&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQjcAJCBg
+2023-09-08 03:56:44,013 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /setprefs?hl=en&prev=https://www.google.com/search?hl%3Den%26q%3Dsite:https://highstreetconsulting.com/%2Bintitle:index.of%2Bpeople.lst%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3Dli:1%26safe%3Doff%26cr%26filter%3D0%26pccc%3D1&sig=0_R9833I9Rg3y4zgdk-qrvDQ51wbs%3D&cs=2&sa=X&ved=0ahUKEwi1nPWJxZqBAxV5lIkEHeH3AYMQjcAJCBg
+2023-09-08 03:56:44,014 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:44,014 [MainThread  ] [INFO] No valid search results found on this page.  Moving on...
+2023-09-08 03:56:44,014 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2023-09-08 03:56:45,290 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:56:45,291 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4'}
+2023-09-08 03:56:45,292 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie AEC=Ad49MVFbdHiQcmJgTjZC_43vaQZbcXLL3OCT0v1g1lvGtRli1FUgAcvohw for .google.com/>, <Cookie NID=511=MrII5pHy-3wOAh5efRClll3vzzKih28PrA1LQUUMNGd9sWNMWIrMC__2lfIFTv3fCC9VBTNnYlqlOKA00Ab3be5HjZqzXSgPOamqR922pnO7zhHwcSdcxH0ZZnVAOS9sY8P825vMgOb6l-Xinb6aiR5b7TZ3vw4D-scB1SVPpQk for .google.com/>]>
+2023-09-08 03:56:45,293 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:56:45,293 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:56:45,298 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=100
+2023-09-08 03:56:45,300 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&q=site%3Ahttps%3A%2F%2Fhighstreetconsulting.com%2F+index.of.secret&num=100&btnG=Google+Search&tbs=li:1&safe=off&cr=&filter=0
+2023-09-08 03:56:46,838 [MainThread  ] [DEBUG]     status_code: 200
+2023-09-08 03:56:46,839 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4'}
+2023-09-08 03:56:46,840 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2023-09-08-07 for .google.com/>, <Cookie NID=511=Cy6igIZjgcgPsysbAjjf4-h34QLBQpHhERdbipetSBjWUlDUsiwSFZVTIixn1NiytGZSI2YjnfVHqa_Y-Cdyn1pykvBJvChmfbbnjK4DLKd1S3UdQVAbE9QupT9siVdHb5ouRijoKfvO2tykMr3PcNOXCiENwr8OR8mrE7LRcnx7HV964GhWXw for .google.com/>]>
+2023-09-08 03:56:46,840 [MainThread  ] [DEBUG]     proxy: 
+2023-09-08 03:56:46,841 [MainThread  ] [DEBUG]     verify_ssl: True
+2023-09-08 03:56:46,923 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQOwgC
+2023-09-08 03:56:46,924 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQOwgC
+2023-09-08 03:56:46,925 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,925 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+index.of.secret&tbs=li:1&num=100&safe=off&sa=G&sca_esv=563665333&hl=en&gbv=1&sei=vtP6ZJWeHsCYptQPq72DyAk
+2023-09-08 03:56:46,926 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+index.of.secret&tbs=li:1&num=100&safe=off&sa=G&sca_esv=563665333&hl=en&gbv=1&sei=vtP6ZJWeHsCYptQPq72DyAk
+2023-09-08 03:56:46,927 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,927 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQ_AUIBigB
+2023-09-08 03:56:46,928 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQ_AUIBigB
+2023-09-08 03:56:46,929 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,930 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQ_AUIBygC
+2023-09-08 03:56:46,931 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQ_AUIBygC
+2023-09-08 03:56:46,931 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,932 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQ_AUICCgD
+2023-09-08 03:56:46,933 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQ_AUICCgD
+2023-09-08 03:56:46,933 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,934 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQ_AUICSgE
+2023-09-08 03:56:46,935 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQ_AUICSgE
+2023-09-08 03:56:46,936 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,936 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /advanced_search
+2023-09-08 03:56:46,937 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /advanced_search
+2023-09-08 03:56:46,938 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,939 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:h&source=lnt&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQpwUICw
+2023-09-08 03:56:46,939 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:h&source=lnt&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQpwUICw
+2023-09-08 03:56:46,940 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,941 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:d&source=lnt&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQpwUIDA
+2023-09-08 03:56:46,942 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:d&source=lnt&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQpwUIDA
+2023-09-08 03:56:46,942 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,943 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:w&source=lnt&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQpwUIDQ
+2023-09-08 03:56:46,944 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:w&source=lnt&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQpwUIDQ
+2023-09-08 03:56:46,944 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,945 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:m&source=lnt&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQpwUIDg
+2023-09-08 03:56:46,946 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:m&source=lnt&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQpwUIDg
+2023-09-08 03:56:46,946 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,947 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:y&source=lnt&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQpwUIDw
+2023-09-08 03:56:46,948 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbs=qdr:y&source=lnt&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQpwUIDw
+2023-09-08 03:56:46,948 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,949 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbas=0&source=lnt&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQpwUIEA
+2023-09-08 03:56:46,950 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:https://highstreetconsulting.com/+index.of.secret&num=100&safe=off&sca_esv=563665333&hl=en&tbas=0&source=lnt&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQpwUIEA
+2023-09-08 03:56:46,950 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,951 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?url=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQty4IFQ&usg=AOvVaw2J_iniiiIRkpkKT3Ijmgt1
+2023-09-08 03:56:46,952 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://support.google.com/websearch?p=ws_settings_location&hl=en
+2023-09-08 03:56:46,953 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,954 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?url=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fhl%253Den%2526q%253Dsite:https://highstreetconsulting.com/%252Bindex.of.secret%2526num%253D100%2526btnG%253DGoogle%252BSearch%2526tbs%253Dli:1%2526safe%253Doff%2526cr%253D%2526filter%253D0%26hl%3Den&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQxs8CCBY&usg=AOvVaw2WE9XfP66w_LSrve7hutvx
+2023-09-08 03:56:46,955 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://accounts.google.com/ServiceLogin?continue=https://www.google.com/search%3Fhl%3Den%26q%3Dsite:https://highstreetconsulting.com/%2Bindex.of.secret%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3Dli:1%26safe%3Doff%26cr%3D%26filter%3D0&hl=en
+2023-09-08 03:56:46,955 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,956 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/preferences?hl=en&fg=1&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQ5fUCCBc
+2023-09-08 03:56:46,957 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/preferences?hl=en&fg=1&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQ5fUCCBc
+2023-09-08 03:56:46,957 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,958 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://policies.google.com/privacy?hl=en&fg=1
+2023-09-08 03:56:46,959 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://policies.google.com/privacy?hl=en&fg=1
+2023-09-08 03:56:46,959 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,960 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://policies.google.com/terms?hl=en&fg=1
+2023-09-08 03:56:46,961 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://policies.google.com/terms?hl=en&fg=1
+2023-09-08 03:56:46,961 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,962 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /setprefs?hl=en&prev=https://www.google.com/search?hl%3Den%26q%3Dsite:https://highstreetconsulting.com/%2Bindex.of.secret%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3Dli:1%26safe%3Doff%26cr%26filter%3D0%26pccc%3D1&sig=0_oW5sHOxzsl-YyCxfE--d9UkrqHI%3D&cs=2&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQjcAJCBg
+2023-09-08 03:56:46,963 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /setprefs?hl=en&prev=https://www.google.com/search?hl%3Den%26q%3Dsite:https://highstreetconsulting.com/%2Bindex.of.secret%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3Dli:1%26safe%3Doff%26cr%26filter%3D0%26pccc%3D1&sig=0_oW5sHOxzsl-YyCxfE--d9UkrqHI%3D&cs=2&sa=X&ved=0ahUKEwiV9dWLxZqBAxVAjIkEHaveAJkQjcAJCBg
+2023-09-08 03:56:46,964 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2023-09-08 03:56:46,964 [MainThread  ] [INFO] No valid search results found on this page.  Moving on...
+2023-09-08 03:56:46,965 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
