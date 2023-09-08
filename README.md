@@ -79,7 +79,7 @@ Performing 7300+ search requests to Google as fast as possible will simply not w
 
 Well, this tool is not a complete thing yet. I will work on adding many features later. Some of these features will be
 
--Save results
-Bypass Google ban
-Add a proxy
-- Add timers
+* Save results
+* Bypass Google ban
+* Add a proxy
+* Add timers
