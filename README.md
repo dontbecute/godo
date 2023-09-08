@@ -42,17 +42,16 @@ used to find potentially vulnerable boxes or other juicy info that is picked up 
 
 ## godo run - main.py -
 
-    to start the tool you can use some of this example 
+    - to start the tool you can use some of this example 
 
     ```bash
     python3 main.py -t (you target URL) -C (category form GHDB) -p (number of payload you need)
     ```
-    * the `all` when you passed to -C the tool will try all Dorks on GHDB
-    * the `all` when passed to -p the tool will try all payloads on GHDB OR all payloads you choise form category
+    - the `all` when you passed to -C the tool will try all Dorks on GHDB
+    - the `all` when passed to -p the tool will try all payloads on GHDB OR all payloads you choise form category
     
-    * Individual category dork
 
-    Dork categories:
+    - Dork categories:
 
     ```python
     categories = {
