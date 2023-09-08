@@ -40,7 +40,7 @@ used to find potentially vulnerable boxes or other juicy info that is picked up 
     pip install -r requirements.txt
     ```
 
-## godo run - main.py -
+## godo run main.py 
 
     - to start the tool you can use some of this example 
 
