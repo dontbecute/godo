@@ -1,6 +1,7 @@
 
 from yagooglesearch import SearchClient
 import re
+from .GoogleDork import GoogleDork
 
 URL_NEED_IGNORE= [
     "https://www.kb.cert.org",
@@ -10,6 +11,9 @@ URL_NEED_IGNORE= [
 
 
 class Attack():
+    def __init__(self) -> None:
+        self.Dork = GoogleDork()
+        self.resault = []
 
     def setQuery(self , targetWebsite , dork):
 
@@ -59,6 +63,7 @@ class Attack():
             query,
             tbs="li:1",
             max_search_result_urls_to_return=100,
+            minimum_delay_between_paged_results_in_seconds=12,
             http_429_cool_off_time_in_minutes=45,
             http_429_cool_off_factor=1.5,
             verbosity=5,
@@ -84,11 +89,104 @@ class Attack():
         return listOfURL
 
 
-    def OUT_reault(self , listOfVulnURL):
-         
-        if listOfVulnURL:
-              for url in listOfVulnURL:
-                   print(url)
+    def attackSpcificPayloadAllCategory(self, 
+                                        jsonResponseFromGHDB, 
+                                        target,
+                                        payload):
+        
+        listOfDorkFromGHDB = self.Dork.getSpcificNumberOfDorksFromGoogleHackingDB(
+                 jsonResponse  = jsonResponseFromGHDB,
+                 numberOfDorks = payload
+                )
+        listOfQuery = self.setListOfQuery(listOfDorkFromGHDB , target)
+        listOfValideQuery = self.validateListOfQuery(
+                listOfQuery = listOfQuery
+                )
+        for query in listOfValideQuery:
+                self.resault = self.getListOfVulnURL(
+                        query=query
+                        )
+        
+        self.resault = self.ignoreURLS(self.resault)
+        return self.resault
+
+
+    def attackAllPayloadAllCategory(self,
+                                    jsonResponseFromGHDB,
+                                    target):
+        
+        listOfDorkFromGHDB = self.Dork.getAllDorksFromGoogleHackingDb(
+                jsonResponse = jsonResponseFromGHDB
+            )
+        listOfQuery = self.setListOfQuery(listOfDorkFromGHDB , target)
+        listOfValideQuery = self.validateListOfQuery(
+                listOfQuery = listOfQuery
+                )
+        for query in listOfValideQuery:
+                self.resault = self.getListOfVulnURL(
+                        query=query
+                        )
+        
+        self.resault = self.ignoreURLS(self.resault)
+        return self.resault
+    
+
+    def attackSpcificPayloadSpcificCategory(self, 
+                                            jsonResponseFromGHDB,
+                                            category,
+                                            payload, 
+                                            target):
+        
+        listOfDorkFromGHDB = self.Dork.getDorksFromGoogleHackingDbByCategory(
+                jsonResponse = jsonResponseFromGHDB,
+                category = category  
+            )            
+        listOfDorkFromList = self.Dork.getSpacificNumberOfDorkFromList(
+                listOfDork   = listOfDorkFromGHDB,
+                numberOfDork = payload
+            )
+        listOfQuery = self.setListOfQuery(listOfDorkFromList , target)
+        listOfValideQuery = self.validateListOfQuery(
+                listOfQuery = listOfQuery
+                )
+        
+        for query in listOfValideQuery:
+            self.resault = self.getListOfVulnURL(
+            query=query
+                    )
+            
+        self.resault = self.ignoreURLS(self.resault)
+
+        return self.resault
+
+
+    def attackAllPaylaodSpcificCategroy(self,
+                                        jsonResponseFromGHDB, 
+                                        category,
+                                        target):
+            
+            listOfDorkFromGHDB = self.Dork.getDorksFromGoogleHackingDbByCategory(
+                jsonResponse = jsonResponseFromGHDB,
+                category = category  
+            )
+            listOfQuery = self.setListOfQuery(listOfDorkFromGHDB , target)
+            listOfValideQuery = self.validateListOfQuery(
+                listOfQuery = listOfQuery
+                )
+            for query in listOfValideQuery:
+                self.resault = self.getListOfVulnURL(
+                query=query
+                        )
+            
+            self.resault = self.ignoreURLS(self.resault)
+
+            return self.resault
+    
+
+    def OUTPUT_(self, output:list):
+        if output:
+            for item in output:
+                print(f"-> {item}")
 
         else:
-            print("[ BAD NEWS ] WE_ARE_EMPTY : This site maybe good we are NOT Founding ANY valide dork against it")
+            print("[ SAD ] No output To be printed...")
